@@ -8,65 +8,65 @@ $(document).ready(function() {
       "Jon Snow": {
         name: "Jon Snow",
         health: 200,
-        attack: 11,
+        attack: 20,
         imageUrl: "assets/images/jonSnow.jpg",
-        enemyAttackBack: 8
+        enemyAttackBack: 20
       },
       "Melisandre": {
         name: "Melisandre",
-        health: 100,
-        attack: 14,
+        health: 200,
+        attack: 25,
         imageUrl: "assets/images/melisandre.jpg",
-        enemyAttackBack: 14
+        enemyAttackBack: 15
       },
       "Cersei Lannister": {
         name: "Cersei Lannister",
-        health: 150,
-        attack: 8,
+        health: 200,
+        attack: 18,
         imageUrl: "assets/images/cersei.jpg",
-        enemyAttackBack: 20
+        enemyAttackBack: 22
       },
       "Daenerys Targaryen": {
         name: "Daenerys Targaryen",
-        health: 180,
-        attack: 7,
+        health: 200,
+        attack: 30,
         imageUrl: "assets/images/daenerys.jpeg",
-        enemyAttackBack: 25
+        enemyAttackBack: 10
       },
       "Tyrion Lannister": {
           name: 'Tyrion Lannister',
-          health: 165,
-          attack: 12,
+          health: 200,
+          attack: 15,
           imageUrl: "assets/images/tyrion.jpg",
-          enemyAttackBack: 16
+          enemyAttackBack: 25
       },
       "Jamie Lannister": {
           name: "Jamie Lannister",
-          health: 210,
-          attack: 13,
+          health: 200,
+          attack: 23,
           imageUrl: "assets/images/Jaime.jpg",
-          enemyAttackBack: 18
+          enemyAttackBack: 11
       },
       "White Walker": {
           name: "White Walker",
-          health: 175,
-          attack: 15,
+          health: 1000,
+          attack: 50,
           imageUrl: "assets/images/whiteWalker.jpg",
-          enemyAttackBack: 35
+          enemyAttackBack: 50
       },
       "Arya Stark": {
         name: "Arya Stark",
-        health: 175,
-        attack: 15,
+        health: 200,
+        attack: 21,
         imageUrl: "assets/images/arya.jpeg",
-        enemyAttackBack: 15
+        enemyAttackBack: 19
     },
     "Brienne of Tarth": {
       name: "Brienne of Tarth",
-      health: 225,
-      attack: 19,
+      health: 200,
+      attack: 13,
       imageUrl: "assets/images/brienne.jpg",
-      enemyAttackBack: 21
+      enemyAttackBack: 27
   }
     };
   
