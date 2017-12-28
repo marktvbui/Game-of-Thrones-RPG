@@ -12,18 +12,18 @@ $(document).ready(function() {
         imageUrl: "assets/images/jonSnow.jpg",
         enemyAttackBack: 8
       },
-      "Arya Stark": {
-        name: "Arya Stark",
+      "Melisandre": {
+        name: "Melisandre",
         health: 100,
         attack: 14,
-        imageUrl: "assets/images/Arya.jpg",
-        enemyAttackBack: 4
+        imageUrl: "assets/images/melisandre.jpg",
+        enemyAttackBack: 14
       },
       "Cersei Lannister": {
         name: "Cersei Lannister",
         health: 150,
         attack: 8,
-        imageUrl: "assets/images/cersei.jpeg",
+        imageUrl: "assets/images/cersei.jpg",
         enemyAttackBack: 20
       },
       "Daenerys Targaryen": {
@@ -38,22 +38,36 @@ $(document).ready(function() {
           health: 165,
           attack: 12,
           imageUrl: "assets/images/tyrion.jpg",
-          enemyAttackBack: 10
+          enemyAttackBack: 16
       },
-      "Chewie": {
-          name: "Chewie",
+      "Jamie Lannister": {
+          name: "Jamie Lannister",
           health: 210,
           attack: 13,
-          imageUrl: "assets/images/chewie.jpg",
-          enemyAttackBack: 13
+          imageUrl: "assets/images/Jaime.jpg",
+          enemyAttackBack: 18
       },
-      "Palpatine": {
-          name: "Palpatine",
+      "White Walker": {
+          name: "White Walker",
           health: 175,
           attack: 15,
-          imageUrl: "assets/images/palpatine.jpg",
-          enemyAttackBack: 5
-      }
+          imageUrl: "assets/images/whiteWalker.jpg",
+          enemyAttackBack: 35
+      },
+      "Arya Stark": {
+        name: "Arya Stark",
+        health: 175,
+        attack: 15,
+        imageUrl: "assets/images/arya.jpeg",
+        enemyAttackBack: 15
+    },
+    "Brienne of Tarth": {
+      name: "Brienne of Tarth",
+      health: 225,
+      attack: 19,
+      imageUrl: "assets/images/brienne.jpg",
+      enemyAttackBack: 21
+  }
     };
   
     // Will be populated when the player selects a character.

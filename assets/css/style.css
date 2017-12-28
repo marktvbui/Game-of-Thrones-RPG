@@ -1,7 +1,7 @@
 body {
     font-family: "Share Tech Mono", Arial, Helvetica, sans-serif;
-    color: black;
-    background-image: url("../images/WinterIsComing.jpg");
+    color: red;
+    background-image: url("../images/GoT.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,8 +31,8 @@ body {
   .character {
     display: inline-block;
     cursor: pointer;
-    background-color: black;
-    border-color: gray;
+    background-color: red;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
   }
@@ -52,7 +52,7 @@ body {
     display: inline-block;
     cursor: pointer;
     background-color: red;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-width: 1px;
   }
@@ -60,17 +60,17 @@ body {
     display: inline-block;
     cursor: pointer;
     background-color: red;
-    border-color: black;
+    border-color: red;
     border-style: solid;
     border-width: 1px;
   }
   #action .character {
-    color: black;
-    background-color: black;
+    color: red;
+    background-color: red;
   }
   .target-enemy {
-    color: black;
-    background-color: black;
+    color: red;
+    background-color: red;
   }
   #selected-character {
     width: 190px;
